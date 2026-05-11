@@ -16,6 +16,13 @@
  * @returns The sum of all valid numbers in the array
  */
 export function arraySum(numbers: number[]): number {
-  // TODO: Implement this function
-  throw new Error('Function not implemented');
+  if (!Array.isArray(numbers)) return 0;
+
+  let sum = 0;
+  for (const value of numbers) {
+    if (typeof value === 'number' && !Number.isNaN(value)) {
+      sum += value;
+    }
+  }
+  return sum;
 }
