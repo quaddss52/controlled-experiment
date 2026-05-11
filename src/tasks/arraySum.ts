@@ -16,6 +16,5 @@
  * @returns The sum of all valid numbers in the array
  */
 export function arraySum(numbers: number[]): number {
-  // TODO: Implement this function
-  throw new Error('Function not implemented');
+  return numbers.reduce((sum, n) => sum + n, 0);
 }

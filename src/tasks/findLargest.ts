@@ -17,6 +17,6 @@
  * @returns The largest number in the array, or null if the array is empty
  */
 export function findLargest(numbers: number[]): number | null {
-  // TODO: Implement this function
-  throw new Error('Function not implemented');
+  if (numbers.length === 0) return null;
+  return numbers.reduce((max, n) => (n > max ? n : max), -Infinity);
 }
