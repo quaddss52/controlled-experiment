@@ -18,5 +18,6 @@
  */
 export function findLargest(numbers: number[]): number | null {
   // TODO: Implement this function
-  throw new Error('Function not implemented');
+  return Math.max(...numbers);
+  // throw new Error("Function not implemented");
 }

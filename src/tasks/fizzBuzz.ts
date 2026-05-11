@@ -19,5 +19,15 @@
  */
 export function fizzBuzz(num: number): string {
   // TODO: Implement this function
-  throw new Error('Function not implemented');
+  if (num % 3 == 0) {
+    return "Fizz";
+  }
+  if (num % 5 == 0) {
+    return "Buzz";
+  }
+  if (num % 3 && num % 5 === 0) {
+    return "FizzBuzz";
+  }
+  return String(num);
+  // throw new Error('Function not implemented');
 }

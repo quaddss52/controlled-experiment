@@ -17,5 +17,6 @@
  */
 export function stringReversal(str: string): string {
   // TODO: Implement this function
-  throw new Error('Function not implemented');
+  return str.split("").reverse().join("");
+  // throw new Error('Function not implemented');
 }
