@@ -17,5 +17,13 @@
  */
 export function arraySum(numbers: number[]): number {
   // TODO: Implement this function
-  throw new Error('Function not implemented');
+
+  let count = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    const current = numbers[i];
+    if (typeof current === "number" && !isNaN(current)) {
+      count += current;
+    }
+  }
+  return count;
 }

@@ -18,5 +18,19 @@
  */
 export function findLargest(numbers: number[]): number | null {
   // TODO: Implement this function
-  throw new Error('Function not implemented');
+
+  // Handle empty array case
+  if (numbers.length === 0) {
+    return null;
+  }
+  // Filter out NaN values to prevent Math.max from returning NaN
+  const validNumbers = numbers.filter(
+    (num) => typeof num === "number" && !isNaN(num),
+  );
+
+  if (validNumbers.length === 0) {
+    return null;
+  }
+
+  return Math.max(...validNumbers);
 }
