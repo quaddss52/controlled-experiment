@@ -16,6 +16,15 @@
  * @returns The reversed string, or empty string for invalid input
  */
 export function stringReversal(str: string): string {
-  // TODO: Implement this function
-  throw new Error('Function not implemented');
+  if (str === null || str === undefined || typeof str !== "string") {
+    return "";
+  } else if (str.length === 1) {
+    return str;
+  } else {
+    let reversedString = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+      reversedString += str[i];
+    }
+    return reversedString;
+  }
 }
