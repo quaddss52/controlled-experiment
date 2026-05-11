@@ -18,6 +18,15 @@
  * @returns "Fizz", "Buzz", "FizzBuzz", or the number as a string
  */
 export function fizzBuzz(num: number): string {
-  // TODO: Implement this function
-  throw new Error('Function not implemented');
+  if (!Number.isInteger(num)) {
+    return String(num);
+  }
+
+  const divisibleBy3 = num % 3 === 0;
+  const divisibleBy5 = num % 5 === 0;
+
+  if (divisibleBy3 && divisibleBy5) return 'FizzBuzz';
+  if (divisibleBy3) return 'Fizz';
+  if (divisibleBy5) return 'Buzz';
+  return String(num);
 }
