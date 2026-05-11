@@ -28,3 +28,5 @@ export function fizzBuzz(num: number): string {
     return num.toString();
   }
 }
+
+// done
