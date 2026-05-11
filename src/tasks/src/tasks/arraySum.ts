@@ -16,6 +16,11 @@
  * @returns The sum of all valid numbers in the array
  */
 export function arraySum(numbers: number[]): number {
-  // TODO: Implement this function
-  throw new Error('Function not implemented');
+  let sum: number = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    if (typeof numbers[i] === "number") {
+      sum += numbers[i];
+    }
+  }
+  return sum;
 }
