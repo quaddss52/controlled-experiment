@@ -1,0 +1,64 @@
+{
+  "participantId": "",
+  "group": "A or B",
+  "groupDescription": "A = AI-assisted (GitHub Copilot), B = Manual (No AI)",
+  "sessionDate": "",
+  "tasks": [
+    {
+      "taskNumber": 1,
+      "taskName": "FizzBuzz",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 0,
+      "aiToolUsed": "GitHub Copilot or N/A",
+      "promptsUsed": [],
+      "refinementIterations": 0,
+      "notes": ""
+    },
+    {
+      "taskNumber": 2,
+      "taskName": "Array Sum",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 0,
+      "aiToolUsed": "GitHub Copilot or N/A",
+      "promptsUsed": [],
+      "refinementIterations": 0,
+      "notes": ""
+    },
+    {
+      "taskNumber": 3,
+      "taskName": "String Reversal",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 0,
+      "aiToolUsed": "GitHub Copilot or N/A",
+      "promptsUsed": [],
+      "refinementIterations": 0,
+      "notes": ""
+    },
+    {
+      "taskNumber": 4,
+      "taskName": "Find Largest",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 0,
+      "aiToolUsed": "GitHub Copilot or N/A",
+      "promptsUsed": [],
+      "refinementIterations": 0,
+      "notes": ""
+    }
+  ],
+  "participantExperience": {
+    "yearsOfTypeScriptExperience": 0,
+    "yearsOfJavaScriptExperience": 0,
+    "previousAIToolExperience": "None/Limited/Moderate/Extensive",
+    "primaryIDE": "VS Code"
+  },
+  "postSessionQuestions": {
+    "difficultyRating": "1-5 scale (1=Very Easy, 5=Very Difficult)",
+    "copilotHelpfulness": "1-5 scale (Group A only)",
+    "timePerception": "Too short/Just right/Too long",
+    "comments": ""
+  }
+}
