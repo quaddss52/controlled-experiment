@@ -17,5 +17,16 @@
  */
 export function stringReversal(str: string): string {
   // TODO: Implement this function
+
+  if (typeof str !== "string") {
+    return "";
+  } else if (str.length === 0) {
+    return "";
+  } else {
+    let reversed = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+      reversed += str[i];
+    } return reversed;
+  }
   throw new Error('Function not implemented');
 }

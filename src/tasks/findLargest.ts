@@ -18,5 +18,11 @@
  */
 export function findLargest(numbers: number[]): number | null {
   // TODO: Implement this function
-  throw new Error('Function not implemented');
+  let largeest = numbers[0]
+  for(let i = 0; i < numbers.length; i++){
+    if(numbers[i] > largeest) {
+      largeest = numbers[i]
+    }
+  }
+  return largeest
 }
