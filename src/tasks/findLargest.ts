@@ -6,7 +6,7 @@
  * - Returns the largest number in the array
  *
  * Edge Cases:
- * - Empty array should return null
+ * - Empty array should return nullgit
  * - Single-item array should return that item
  * - Handle negative numbers correctly (e.g., [-5, -10, -1] returns -1)
  * - Handle floating-point numbers correctly
