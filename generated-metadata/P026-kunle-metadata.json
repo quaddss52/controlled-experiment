@@ -1,0 +1,81 @@
+{
+  "participantId": "P026",
+  "group": "A",
+  "groupDescription": "A = AI-assisted (GitHub Copilot)",
+  "sessionDate": "2026-05-09",
+  "tasks": [
+    {
+      "taskNumber": 1,
+      "taskName": "FizzBuzz",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 20,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "create fizzbuzz",
+          "handle negative numbers"
+        ]
+      ],
+      "refinementIterations": 1,
+      "notes": ""
+    },
+    {
+      "taskNumber": 2,
+      "taskName": "Array Sum",
+      "submissionTimestamp": "763c5d04136be031f51890cd4e2308991aa73020",
+      "gitCommitHash": "763c5d04136be031f51890cd4e2308991aa73020",
+      "timeSpentMinutes": 14,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "add all numbers in array"
+        ]
+      ],
+      "refinementIterations": 1,
+      "notes": ""
+    },
+    {
+      "taskNumber": 3,
+      "taskName": "String Reversal",
+      "submissionTimestamp": "2f6bdef6cfc3f6f47add9809284525210754f38e",
+      "gitCommitHash": "2f6bdef6cfc3f6f47add9809284525210754f38e",
+      "timeSpentMinutes": 12,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "reverse string function"
+        ]
+      ],
+      "refinementIterations": 0,
+      "notes": ""
+    },
+    {
+      "taskNumber": 4,
+      "taskName": "Find Largest",
+      "submissionTimestamp": "03bf7608c0a5e877c6d9907911307f2379892631",
+      "gitCommitHash": "03bf7608c0a5e877c6d9907911307f2379892631",
+      "timeSpentMinutes": 15,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "find max number"
+        ]
+      ],
+      "refinementIterations": 3,
+      "notes": ""
+    }
+  ],
+  "participantExperience": {
+    "yearsOfTypeScriptExperience": 2,
+    "yearsOfJavaScriptExperience": 3,
+    "previousAIToolExperience": "Moderate",
+    "primaryIDE": "VS Code"
+  },
+  "postSessionQuestions": {
+    "difficultyRating": "4",
+    "copilotHelpfulness": "5",
+    "timePerception": "Just right",
+    "comments": ""
+  }
+}

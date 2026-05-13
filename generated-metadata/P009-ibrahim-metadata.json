@@ -1,0 +1,81 @@
+{
+  "participantId": "P009",
+  "group": "A",
+  "groupDescription": "A = AI-assisted (GitHub Copilot)",
+  "sessionDate": "2026-05-07",
+  "tasks": [
+    {
+      "taskNumber": 1,
+      "taskName": "FizzBuzz",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 17,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "create fizzbuzz",
+          "handle negative numbers"
+        ]
+      ],
+      "refinementIterations": 3,
+      "notes": ""
+    },
+    {
+      "taskNumber": 2,
+      "taskName": "Array Sum",
+      "submissionTimestamp": "05045bae1003d434fd1695f0447811476866ce55",
+      "gitCommitHash": "05045bae1003d434fd1695f0447811476866ce55",
+      "timeSpentMinutes": 17,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "add all numbers in array"
+        ]
+      ],
+      "refinementIterations": 1,
+      "notes": ""
+    },
+    {
+      "taskNumber": 3,
+      "taskName": "String Reversal",
+      "submissionTimestamp": "fa16286c0622b2d35d5d9c25159932b0cbd163b7",
+      "gitCommitHash": "fa16286c0622b2d35d5d9c25159932b0cbd163b7",
+      "timeSpentMinutes": 20,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "implement string reversal"
+        ]
+      ],
+      "refinementIterations": 1,
+      "notes": ""
+    },
+    {
+      "taskNumber": 4,
+      "taskName": "Find Largest",
+      "submissionTimestamp": "d188a65defd0dcae6c8719de6c1d39b2c712ffb1",
+      "gitCommitHash": "d188a65defd0dcae6c8719de6c1d39b2c712ffb1",
+      "timeSpentMinutes": 12,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "find largest number in array"
+        ]
+      ],
+      "refinementIterations": 2,
+      "notes": ""
+    }
+  ],
+  "participantExperience": {
+    "yearsOfTypeScriptExperience": 5,
+    "yearsOfJavaScriptExperience": 6,
+    "previousAIToolExperience": "Extensive",
+    "primaryIDE": "VS Code"
+  },
+  "postSessionQuestions": {
+    "difficultyRating": "3",
+    "copilotHelpfulness": "5",
+    "timePerception": "Just right",
+    "comments": ""
+  }
+}

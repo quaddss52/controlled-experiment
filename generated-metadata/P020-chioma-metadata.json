@@ -1,0 +1,83 @@
+{
+  "participantId": "P020",
+  "group": "A",
+  "groupDescription": "A = AI-assisted (GitHub Copilot)",
+  "sessionDate": "2026-04-17",
+  "tasks": [
+    {
+      "taskNumber": 1,
+      "taskName": "FizzBuzz",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 15,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "create fizzbuzz",
+          "handle negative numbers"
+        ]
+      ],
+      "refinementIterations": 3,
+      "notes": ""
+    },
+    {
+      "taskNumber": 2,
+      "taskName": "Array Sum",
+      "submissionTimestamp": "152b24ab4d008913a07c107bef0ccee1039d339e",
+      "gitCommitHash": "152b24ab4d008913a07c107bef0ccee1039d339e",
+      "timeSpentMinutes": 16,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "calculate sum of array"
+        ]
+      ],
+      "refinementIterations": 1,
+      "notes": ""
+    },
+    {
+      "taskNumber": 3,
+      "taskName": "String Reversal",
+      "submissionTimestamp": "43160aa7da83fc9f42d7dc082a7f6f4ecf5d3584",
+      "gitCommitHash": "43160aa7da83fc9f42d7dc082a7f6f4ecf5d3584",
+      "timeSpentMinutes": 14,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "reverse a string",
+          "use built-in methods"
+        ]
+      ],
+      "refinementIterations": 0,
+      "notes": ""
+    },
+    {
+      "taskNumber": 4,
+      "taskName": "Find Largest",
+      "submissionTimestamp": "70ce3fd323e254e5cc2d0e2be044531ff7ae9ef4",
+      "gitCommitHash": "70ce3fd323e254e5cc2d0e2be044531ff7ae9ef4",
+      "timeSpentMinutes": 10,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "get maximum value from array",
+          "handle edge cases"
+        ]
+      ],
+      "refinementIterations": 2,
+      "notes": ""
+    }
+  ],
+  "participantExperience": {
+    "yearsOfTypeScriptExperience": 5,
+    "yearsOfJavaScriptExperience": 4,
+    "previousAIToolExperience": "Extensive",
+    "primaryIDE": "VS Code"
+  },
+  "postSessionQuestions": {
+    "difficultyRating": "3",
+    "copilotHelpfulness": "4",
+    "timePerception": "Just right",
+    "comments": ""
+  }
+}
