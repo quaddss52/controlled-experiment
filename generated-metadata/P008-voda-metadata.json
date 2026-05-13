@@ -1,0 +1,80 @@
+{
+  "participantId": "P008",
+  "group": "A",
+  "groupDescription": "A = AI-assisted (GitHub Copilot)",
+  "sessionDate": "2026-04-20",
+  "tasks": [
+    {
+      "taskNumber": 1,
+      "taskName": "FizzBuzz",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 19,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "write fizzbuzz algorithm"
+        ]
+      ],
+      "refinementIterations": 1,
+      "notes": ""
+    },
+    {
+      "taskNumber": 2,
+      "taskName": "Array Sum",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 18,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "add all numbers in array"
+        ]
+      ],
+      "refinementIterations": 1,
+      "notes": ""
+    },
+    {
+      "taskNumber": 3,
+      "taskName": "String Reversal",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 17,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "reverse string function"
+        ]
+      ],
+      "refinementIterations": 1,
+      "notes": ""
+    },
+    {
+      "taskNumber": 4,
+      "taskName": "Find Largest",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 14,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "find largest number in array"
+        ]
+      ],
+      "refinementIterations": 2,
+      "notes": ""
+    }
+  ],
+  "participantExperience": {
+    "yearsOfTypeScriptExperience": 2,
+    "yearsOfJavaScriptExperience": 2,
+    "previousAIToolExperience": "Extensive",
+    "primaryIDE": "VS Code"
+  },
+  "postSessionQuestions": {
+    "difficultyRating": "4",
+    "copilotHelpfulness": "4",
+    "timePerception": "Just right",
+    "comments": ""
+  }
+}
