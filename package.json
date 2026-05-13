@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
-    "test:coverage": "jest --coverage",
+    "test:coverage": "jest --coverage --json --outputFile=coverage/test-results.json",
     "lint": "eslint src/ --ext .ts",
     "lint:report": "eslint src/ --ext .ts --format json --output-file eslint-report.json",
     "build": "tsc",

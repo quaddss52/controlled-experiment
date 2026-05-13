@@ -1,0 +1,82 @@
+{
+  "participantId": "P015",
+  "group": "A",
+  "groupDescription": "A = AI-assisted (GitHub Copilot)",
+  "sessionDate": "2026-04-18",
+  "tasks": [
+    {
+      "taskNumber": 1,
+      "taskName": "FizzBuzz",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 21,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "implement fizzbuzz function",
+          "fix the edge case for zero"
+        ]
+      ],
+      "refinementIterations": 2,
+      "notes": ""
+    },
+    {
+      "taskNumber": 2,
+      "taskName": "Array Sum",
+      "submissionTimestamp": "3cc985a8b1703a0e74a901eefbdf02adfe8b2604",
+      "gitCommitHash": "3cc985a8b1703a0e74a901eefbdf02adfe8b2604",
+      "timeSpentMinutes": 16,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "add all numbers in array"
+        ]
+      ],
+      "refinementIterations": 1,
+      "notes": ""
+    },
+    {
+      "taskNumber": 3,
+      "taskName": "String Reversal",
+      "submissionTimestamp": "7046850bb97cd1b8ed158b43f64f768655babca7",
+      "gitCommitHash": "7046850bb97cd1b8ed158b43f64f768655babca7",
+      "timeSpentMinutes": 11,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "reverse a string",
+          "use built-in methods"
+        ]
+      ],
+      "refinementIterations": 2,
+      "notes": ""
+    },
+    {
+      "taskNumber": 4,
+      "taskName": "Find Largest",
+      "submissionTimestamp": "0e61ef5740186b94f61096ad56f3760a8d631f98",
+      "gitCommitHash": "0e61ef5740186b94f61096ad56f3760a8d631f98",
+      "timeSpentMinutes": 10,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "find max number"
+        ]
+      ],
+      "refinementIterations": 2,
+      "notes": ""
+    }
+  ],
+  "participantExperience": {
+    "yearsOfTypeScriptExperience": 2,
+    "yearsOfJavaScriptExperience": 8,
+    "previousAIToolExperience": "Limited",
+    "primaryIDE": "VS Code"
+  },
+  "postSessionQuestions": {
+    "difficultyRating": "2",
+    "copilotHelpfulness": "4",
+    "timePerception": "Just right",
+    "comments": ""
+  }
+}

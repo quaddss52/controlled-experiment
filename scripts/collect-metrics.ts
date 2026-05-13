@@ -72,21 +72,50 @@ function parseJestCoverage(resultsDir: string): Partial<MetricsData['functional'
 }
 
 /**
- * Parse Jest test results
+ * Parse Jest test results from JSON output
  */
-function parseJestResults(_resultsDir: string): Partial<MetricsData['functional']> {
-  // Jest outputs results to coverage directory as well
-  // We'll need to parse from Jest's JSON output if configured
-  // For now, returning placeholder values
+function parseJestResults(resultsDir: string): Partial<MetricsData['functional']> {
+  const testResultsPath = path.join(resultsDir, 'coverage', 'test-results.json');
 
-  // TODO: Configure Jest to output JSON results and parse them here
-  return {
-    testPassRate: 0,
-    totalTests: 0,
-    passedTests: 0,
-    failedTests: 0,
-    defectDensity: 0,
-  };
+  if (!fs.existsSync(testResultsPath)) {
+    console.warn(`Warning: Test results file not found at ${testResultsPath}`);
+    return {
+      testPassRate: 0,
+      totalTests: 0,
+      passedTests: 0,
+      failedTests: 0,
+      defectDensity: 0,
+    };
+  }
+
+  try {
+    const testData = JSON.parse(fs.readFileSync(testResultsPath, 'utf-8'));
+
+    const totalTests = testData.numTotalTests || 0;
+    const passedTests = testData.numPassedTests || 0;
+    const failedTests = testData.numFailedTests || 0;
+
+    const testPassRate = totalTests > 0
+      ? parseFloat(((passedTests / totalTests) * 100).toFixed(2))
+      : 0;
+
+    return {
+      testPassRate,
+      totalTests,
+      passedTests,
+      failedTests,
+      defectDensity: 0, // Will be calculated later with KLOC
+    };
+  } catch (error) {
+    console.warn(`Warning: Could not parse test results: ${error}`);
+    return {
+      testPassRate: 0,
+      totalTests: 0,
+      passedTests: 0,
+      failedTests: 0,
+      defectDensity: 0,
+    };
+  }
 }
 
 /**
@@ -167,13 +196,14 @@ function parseNpmAudit(resultsDir: string): MetricsData['security'] {
   // npm audit v7+ format
   const metadata = auditData.metadata || {};
   const vulnerabilities = metadata.vulnerabilities || {};
+  const dependencies = metadata.dependencies || {};
 
   return {
-    totalVulnerabilities: metadata.total || 0,
+    totalVulnerabilities: vulnerabilities.total || 0,
     highSeverity: vulnerabilities.high || 0,
     mediumSeverity: vulnerabilities.moderate || 0,
     lowSeverity: vulnerabilities.low || 0,
-    dependencyRisks: metadata.dependencies || 0,
+    dependencyRisks: dependencies.total || 0,
   };
 }
 
