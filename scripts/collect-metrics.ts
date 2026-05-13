@@ -196,13 +196,14 @@ function parseNpmAudit(resultsDir: string): MetricsData['security'] {
   // npm audit v7+ format
   const metadata = auditData.metadata || {};
   const vulnerabilities = metadata.vulnerabilities || {};
+  const dependencies = metadata.dependencies || {};
 
   return {
-    totalVulnerabilities: metadata.total || 0,
+    totalVulnerabilities: vulnerabilities.total || 0,
     highSeverity: vulnerabilities.high || 0,
     mediumSeverity: vulnerabilities.moderate || 0,
     lowSeverity: vulnerabilities.low || 0,
-    dependencyRisks: metadata.dependencies || 0,
+    dependencyRisks: dependencies.total || 0,
   };
 }
 
