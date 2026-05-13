@@ -1,0 +1,64 @@
+{
+  "participantId": "P004",
+  "group": "B",
+  "groupDescription": "B = Manual (No AI)",
+  "sessionDate": "2026-05-07",
+  "tasks": [
+    {
+      "taskNumber": 1,
+      "taskName": "FizzBuzz",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 18,
+      "aiToolUsed": "N/A",
+      "promptsUsed": [],
+      "refinementIterations": 0,
+      "notes": ""
+    },
+    {
+      "taskNumber": 2,
+      "taskName": "Array Sum",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 17,
+      "aiToolUsed": "N/A",
+      "promptsUsed": [],
+      "refinementIterations": 0,
+      "notes": ""
+    },
+    {
+      "taskNumber": 3,
+      "taskName": "String Reversal",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 12,
+      "aiToolUsed": "N/A",
+      "promptsUsed": [],
+      "refinementIterations": 0,
+      "notes": ""
+    },
+    {
+      "taskNumber": 4,
+      "taskName": "Find Largest",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 10,
+      "aiToolUsed": "N/A",
+      "promptsUsed": [],
+      "refinementIterations": 0,
+      "notes": ""
+    }
+  ],
+  "participantExperience": {
+    "yearsOfTypeScriptExperience": 2,
+    "yearsOfJavaScriptExperience": 7,
+    "previousAIToolExperience": "Extensive",
+    "primaryIDE": "VS Code"
+  },
+  "postSessionQuestions": {
+    "difficultyRating": "2",
+    "copilotHelpfulness": "N/A",
+    "timePerception": "Just right",
+    "comments": ""
+  }
+}
