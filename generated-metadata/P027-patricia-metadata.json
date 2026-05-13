@@ -1,0 +1,80 @@
+{
+  "participantId": "P027",
+  "group": "A",
+  "groupDescription": "A = AI-assisted (GitHub Copilot)",
+  "sessionDate": "2026-04-16",
+  "tasks": [
+    {
+      "taskNumber": 1,
+      "taskName": "FizzBuzz",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 19,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "write fizzbuzz algorithm"
+        ]
+      ],
+      "refinementIterations": 3,
+      "notes": ""
+    },
+    {
+      "taskNumber": 2,
+      "taskName": "Array Sum",
+      "submissionTimestamp": "c709b81e7ce2f385ab36b1029d0857bec0271dfe",
+      "gitCommitHash": "c709b81e7ce2f385ab36b1029d0857bec0271dfe",
+      "timeSpentMinutes": 20,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "calculate sum of array"
+        ]
+      ],
+      "refinementIterations": 1,
+      "notes": ""
+    },
+    {
+      "taskNumber": 3,
+      "taskName": "String Reversal",
+      "submissionTimestamp": "9b0b38239cc9d3f03ae396ad2c04738d36ecad70",
+      "gitCommitHash": "9b0b38239cc9d3f03ae396ad2c04738d36ecad70",
+      "timeSpentMinutes": 20,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "reverse string function"
+        ]
+      ],
+      "refinementIterations": 1,
+      "notes": ""
+    },
+    {
+      "taskNumber": 4,
+      "taskName": "Find Largest",
+      "submissionTimestamp": "cabf6330474ff4241bd4097e45d0e67983e69bda",
+      "gitCommitHash": "cabf6330474ff4241bd4097e45d0e67983e69bda",
+      "timeSpentMinutes": 12,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "find largest number in array"
+        ]
+      ],
+      "refinementIterations": 1,
+      "notes": ""
+    }
+  ],
+  "participantExperience": {
+    "yearsOfTypeScriptExperience": 4,
+    "yearsOfJavaScriptExperience": 2,
+    "previousAIToolExperience": "Moderate",
+    "primaryIDE": "VS Code"
+  },
+  "postSessionQuestions": {
+    "difficultyRating": "2",
+    "copilotHelpfulness": "4",
+    "timePerception": "Just right",
+    "comments": ""
+  }
+}

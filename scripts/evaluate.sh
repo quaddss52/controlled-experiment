@@ -43,6 +43,7 @@ mkdir -p "${RESULTS_DIR}"
 ###############################################################################
 echo -e "${YELLOW}[STEP 1/4]${NC} Running Functional Tests (Jest)..."
 echo "Command: npm run test:coverage"
+echo "Output: coverage/ directory (HTML, LCOV, JSON) + test-results.json"
 echo ""
 
 if npm run test:coverage; then
