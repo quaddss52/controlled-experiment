@@ -1,0 +1,64 @@
+{
+  "participantId": "P021",
+  "group": "B",
+  "groupDescription": "B = Manual (No AI)",
+  "sessionDate": "2026-04-16",
+  "tasks": [
+    {
+      "taskNumber": 1,
+      "taskName": "FizzBuzz",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 23,
+      "aiToolUsed": "N/A",
+      "promptsUsed": [],
+      "refinementIterations": 0,
+      "notes": ""
+    },
+    {
+      "taskNumber": 2,
+      "taskName": "Array Sum",
+      "submissionTimestamp": "84e3339e5f0d8c39053eb30732ec75cf94522c1f",
+      "gitCommitHash": "84e3339e5f0d8c39053eb30732ec75cf94522c1f",
+      "timeSpentMinutes": 19,
+      "aiToolUsed": "N/A",
+      "promptsUsed": [],
+      "refinementIterations": 0,
+      "notes": ""
+    },
+    {
+      "taskNumber": 3,
+      "taskName": "String Reversal",
+      "submissionTimestamp": "a354583955a48058ec21677dacd3b67066bc3324",
+      "gitCommitHash": "a354583955a48058ec21677dacd3b67066bc3324",
+      "timeSpentMinutes": 13,
+      "aiToolUsed": "N/A",
+      "promptsUsed": [],
+      "refinementIterations": 0,
+      "notes": ""
+    },
+    {
+      "taskNumber": 4,
+      "taskName": "Find Largest",
+      "submissionTimestamp": "03fd8ca069493f1a5371cbd91865484ff917cd40",
+      "gitCommitHash": "03fd8ca069493f1a5371cbd91865484ff917cd40",
+      "timeSpentMinutes": 14,
+      "aiToolUsed": "N/A",
+      "promptsUsed": [],
+      "refinementIterations": 0,
+      "notes": ""
+    }
+  ],
+  "participantExperience": {
+    "yearsOfTypeScriptExperience": 5,
+    "yearsOfJavaScriptExperience": 2,
+    "previousAIToolExperience": "Limited",
+    "primaryIDE": "VS Code"
+  },
+  "postSessionQuestions": {
+    "difficultyRating": "2",
+    "copilotHelpfulness": "N/A",
+    "timePerception": "Just right",
+    "comments": ""
+  }
+}

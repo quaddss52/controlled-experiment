@@ -1,0 +1,81 @@
+{
+  "participantId": "P007",
+  "group": "A",
+  "groupDescription": "A = AI-assisted (GitHub Copilot)",
+  "sessionDate": "2026-05-10",
+  "tasks": [
+    {
+      "taskNumber": 1,
+      "taskName": "FizzBuzz",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 16,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "implement fizzbuzz function",
+          "fix the edge case for zero"
+        ]
+      ],
+      "refinementIterations": 3,
+      "notes": ""
+    },
+    {
+      "taskNumber": 2,
+      "taskName": "Array Sum",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 13,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "calculate sum of array"
+        ]
+      ],
+      "refinementIterations": 2,
+      "notes": ""
+    },
+    {
+      "taskNumber": 3,
+      "taskName": "String Reversal",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 13,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "reverse string function"
+        ]
+      ],
+      "refinementIterations": 0,
+      "notes": ""
+    },
+    {
+      "taskNumber": 4,
+      "taskName": "Find Largest",
+      "submissionTimestamp": "",
+      "gitCommitHash": "",
+      "timeSpentMinutes": 18,
+      "aiToolUsed": "GitHub Copilot",
+      "promptsUsed": [
+        [
+          "find max number"
+        ]
+      ],
+      "refinementIterations": 3,
+      "notes": ""
+    }
+  ],
+  "participantExperience": {
+    "yearsOfTypeScriptExperience": 4,
+    "yearsOfJavaScriptExperience": 3,
+    "previousAIToolExperience": "Moderate",
+    "primaryIDE": "VS Code"
+  },
+  "postSessionQuestions": {
+    "difficultyRating": "3",
+    "copilotHelpfulness": "5",
+    "timePerception": "Just right",
+    "comments": ""
+  }
+}
